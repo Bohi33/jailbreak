@@ -1,0 +1,8 @@
+Origin: Bohi33 Jailbreak Repo
+Label: Bohi33 Jailbreak Repo
+Suite: stable
+Version: 1.0
+Codename: stable
+Architectures: iphoneos-arm
+Components: main
+Description: Repository for Jailbreak Packages
