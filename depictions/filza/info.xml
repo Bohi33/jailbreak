@@ -1,0 +1,61 @@
+<package>
+	<id>Filza</id>
+	<name>Filza</name>
+	<version>0.3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<pre-depends>
+		<package>firmware (>= 8.0)</package>
+		<package>system-cmds</package>
+		<package>shell-cmds</package>
+		<package>coreutils</package>
+	</pre-depends>
+	<depends>
+		<package>firmware (>= 7.0)</package>
+		<package>zip</package>
+		<package>unzip</package>
+		<package>gzip</package>
+		<package>unrar</package>
+		<package>p7zip</package>
+	</depends>
+	<conflicts>
+		<package>com.dave1482.powerappbeta</package>
+		<package>com.tigisoftware.filza64bit</package>
+		<package>com.tigisoftware.filza39</package>
+	</conflicts>
+	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
+	<descriptionlist>
+		<description>This is a package with full depictions.</description>
+		<description>It has more description lines.</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Second release</change>
+		<change>It has feature 1</change>
+		<change>It has feature 2</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
